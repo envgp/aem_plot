@@ -6,8 +6,8 @@ channels:
 
 dependencies:
   - python>=3.6
-  - numpy=1.2.0
-  - scipy=1.4.1
+  - numpy==1.2.0
+  - scipy==1.4.1
   - matplotlib
   - jupyter
   - ipywidgets
