@@ -2,7 +2,7 @@
 
 # Plotting a Resistivity Model from Airborne Electromagnetic Data
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simpeg/transform-2021-simpeg/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/envgp/aem_plot/HEAD?labpath=.%2Fnotebooks)
 [![License](https://img.shields.io/github/license/simpeg/transform-2021-simpeg.svg)](https://github.com/simpeg/transform-2021-simpeg/blob/master/LICENSE)
 
 |         | Info |
