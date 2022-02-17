@@ -23,11 +23,12 @@
 * We'll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
+* For 3D visualizations, we will use [Paraview](https://www.paraview.org/) and [Leapfrog](https://www.seequent.com/products-solutions/leapfrog-geo/)
 
 **Airborne Electromagnetic Mehtod**
-
-* XXX
-* As a motivating example, XXX
+* AEM (Airborne Electromagnetic Method) is an effective methodology to image hydrogeology of the subsurface in a large area. 
+* For further details about the AEM method see: [AEM method](https://em.geosci.xyz/content/geophysical_surveys/airborne_tdem/index.html)
+* As a motivating example, we will use a resistivity model from Kaweah Subbasin located in the Central Valley of California, USA. 
 
 ## Usage
 
@@ -52,20 +53,19 @@ manager. If you already have one, you can skip this step.
 
 ### Step 2: Download the AEM Plot tutorials
 
-To access the notebooks, there are 3 options (in order of preference):
+To access the notebooks, there are 2 options (in order of preference):
 1. Use git to clone this repository
-2. From GitHub, you can use the `download` option to download this repository as a zip file (follow all instructions below, replacing the `git clone` step with download and unzip the zip file with the repository contents.
-3. You can run the notebooks online with binder through: https://mybinder.org/v2/gh/simpeg/transform-2021-simpeg/master
+2. You can run the notebooks online with binder through: TBA
 
 To clone this repository, open up a terminal and navigate to where you want this repository stored on your computer.
 
 Then run
 ```
-git clone https://github.com/simpeg/transform-2021-simpeg.git
+git clone https://github.com/envgp/aem_plot.git
 ```
-to clone the repository, and `cd` into the `transform-2021-simpeg` directory
+to clone the repository, and `cd` into the `aem_plot` directory
 ```
-cd transform-2021-simpeg
+cd aem_plot
 ```
 
 ### Step 3: Create the AEM plot tutorial conda environment
@@ -88,7 +88,6 @@ jupyter notebook
 Jupyter will then launch in your web-browser.
 
 If you are able to open any one of the notebooks and run the first cell, then you should be good to go!
-If you run into issues, please post in the #t21-tue-simpeg slack channel.
 
 ## License
 
