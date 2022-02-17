@@ -6,12 +6,15 @@ channels:
 
 dependencies:
   - python>=3.6
-  - numpy
-  - scipy
+  - numpy=1.2.0
+  - scipy=1.4.1
   - matplotlib
   - jupyter
-  - ipywidgets>=0.6.0
+  - ipywidgets
   - mkl
   - simpeg
   - pyvista
+  - pip:
+    - git+https://github.com/simpeg/simpeg.git@em1d_updates
+
 
