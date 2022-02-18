@@ -2,7 +2,6 @@
 
 # Plotting a Resistivity Model from Airborne Electromagnetic Data
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/envgp/aem_plot/HEAD?labpath=.%2Fnotebooks)
 [![License](https://img.shields.io/github/license/simpeg/transform-2021-simpeg.svg)](https://github.com/simpeg/transform-2021-simpeg/blob/master/LICENSE)
 
 |         | Info |
@@ -53,9 +52,7 @@ manager. If you already have one, you can skip this step.
 
 ### Step 2: Download the AEM Plot tutorials
 
-To access the notebooks, there are 2 options (in order of preference):
-1. Use git to clone this repository
-2. You can run the notebooks online with binder through: TBA
+To access the notebooks, you need to use git to clone this repository
 
 To clone this repository, open up a terminal and navigate to where you want this repository stored on your computer.
 
