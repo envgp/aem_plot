@@ -76,7 +76,31 @@ and activate the environment
 conda activate aem_plot
 ```
 
-### Step 4: Launching the notebooks
+### Step 4: Download SimPEG and switch to a specific branch
+```
+git clone https://github.com/simpeg/simpeg.git
+```
+
+to clone the repository, and `cd` into the `simpeg` directory
+
+```
+cd simpeg
+```
+
+switch to an `em1d_updates` branch 
+
+```
+git checkout -f em1d_updates
+```
+
+then install SimPEG.
+
+```
+python setup.py install
+```
+
+
+### Step 5: Launching the notebooks
 
 Once you have activated the conda environment, you can launch the notebooks
 ```
