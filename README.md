@@ -7,7 +7,7 @@
 |         | Info |
 |--------:|:-----|
 | When    | Wednesday, February 16 • 16:00-17:00 pm PST |
-| YouTube | TBA |
+| Video | TBA |
 | conda environment  | `aem_plot` |
 | Slides  | [AEM Plot presentation](https://bit.ly/aem_plot_slides) |
 
