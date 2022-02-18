@@ -15,7 +15,6 @@ dependencies:
   - simpeg
   - pyvista
   - pip:
-    - git+https://github.com/simpeg/geoana.git
     - git+https://github.com/simpeg/simpeg.git@em1d_updates
 
 
