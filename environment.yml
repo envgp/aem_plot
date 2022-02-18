@@ -16,5 +16,6 @@ dependencies:
   - pyvista
   - pip:
     - git+https://github.com/simpeg/simpeg.git@em1d_updates
+    - git+https://github.com/geoscixyz/geosci-labs.git
 
 
