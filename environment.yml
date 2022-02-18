@@ -15,7 +15,7 @@ dependencies:
   - simpeg
   - pyvista
   - pip:
-    - geoana==0.1.3
+    - git+https://github.com/simpeg/geoana/geoana.git
     - git+https://github.com/simpeg/simpeg.git@em1d_updates
 
 
