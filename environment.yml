@@ -13,8 +13,6 @@ dependencies:
   - ipywidgets
   - mkl
   - simpeg
+  - verde
   - pyvista
-  - pip:
-    - git+https://github.com/simpeg/simpeg.git@em1d_updates
-
 
