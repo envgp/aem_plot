@@ -33,9 +33,15 @@ jobs:
         conda env create -f environment.yml
         source activate aem_plot
         pip install -r requirements_dev.txt
+        git clone https://github.com/simpeg/simpeg.git
+        cd simpeg
+        git checkout -f em1d_updates
+        python setup.py install
+        cd ..
 
     - name: Run Tests
       shell: bash
       run: |
         source activate aem_plot
         conda list
+        pytest .
